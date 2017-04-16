@@ -4,6 +4,7 @@
   "description": "简洁明了的QQ机器人框架",
   "main": "./lib/etbot.js",
   "types": "./lib/main.d.ts",
+  "keywords": ["QQBot"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
