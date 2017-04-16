@@ -1,0 +1,18 @@
+{
+  "name": "etbot",
+  "version": "0.1.0",
+  "description": "简洁明了的QQ机器人框架",
+  "main": "./lib/etbot.js",
+  "types": "./lib/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "weilantian",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "http": "0.0.0",
+    "request": "^2.81.0"
+  }
+}
