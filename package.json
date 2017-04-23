@@ -1,6 +1,6 @@
 {
   "name": "etbot",
-  "version": "0.1.1.1",
+  "version": "0.1.2",
   "description": "简洁明了的QQ机器人框架",
   "main": "./lib/etbot.js",
   "types": "./lib/main.d.ts",
