@@ -24,7 +24,7 @@ export class etbot_message {
 }
 
 export class Bot {
-    constructor(config: etbot_config)
+    constructor(config?: etbot_config)
     get_user_info(callback: Function): void
     get_friend_info(callback: Function): void
     get_group_info(callback: Function): void
