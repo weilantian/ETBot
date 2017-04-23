@@ -26,12 +26,12 @@ class etbot_config {
 
 class etbot_friend {
     uid: Number
-    
+
 
 
     constructor(uid: Number) {
         this.uid = uid
-        
+
     }
 }
 
@@ -257,10 +257,17 @@ class Bot {
 
 
 
-    constructor(config: etbot_config) {
-        this.send_url = config.send_uri
-        this.post_port = config.post_api_port
-        url = this.send_url
+    constructor(config?: etbot_config) {
+        if (config) {
+            this.send_url = config.send_uri
+            this.post_port = config.post_api_port
+            url = this.send_url
+        } else {
+            this.send_url = "http://127.0.0.1:5000"
+            this.post_port = 3000
+            url = this.send_url
+        }
+
         try {
             app.listen(this.post_port, function () {
                 console.log("[BOT]BOT Started.")
@@ -304,4 +311,4 @@ class Bot {
     }
 }
 
-export { Bot, Event, etbot_config ,etbot_discuss, etbot_friend, etbot_group, etbot_message }
+export { Bot, Event, etbot_config, etbot_discuss, etbot_friend, etbot_group, etbot_message }
