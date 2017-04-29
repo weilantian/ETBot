@@ -2,9 +2,6 @@
 
 一个明确，简洁，实用的QQ机器人框架。
 
-## Api文档
-[单击进入](https://weilantian.gitbooks.io/etbot/content/)
-
 使用「ETBot」非常简单，不到30行代码就可以构建一个酷炫的QQ机器人。
 
 ```typescript
@@ -25,6 +22,11 @@ bot.on(ETBot.Event.receive_message,function(message) {
 ```
 
 是不是非常酷炫？？
+
+## Api文档
+[单击进入](https://weilantian.gitbooks.io/etbot/content/)
+
+
 
 ## 快速开始
 
